@@ -37,6 +37,11 @@ public:
         D, DPRIME, D2
 
     };
+
+    virtual COLOR getColor(FACE face, unsigned row, unsigned column) const=0;
+
+    static
+
 };
 
 
